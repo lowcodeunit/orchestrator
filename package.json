@@ -1,0 +1,38 @@
+{
+  "name": "@fathym/lcu-orchestrator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/cjs/lcu.js",
+  "module": "./dist/esm/lcu.js",
+  "typings": "./dist/src/lcu.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathym/mfe-orchestrator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fathym/mfe-orchestrator/issues"
+  },
+  "homepage": "https://github.com/fathym/mfe-orchestrator#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.180",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@semanticjs/common": "^0.52.0",
+    "lodash": "^4.17.21"
+  }
+}
